@@ -6,6 +6,7 @@
   "scripts": {
     "test": "mocha build/test/test.js",
     "clean": "rimraf ./build/* && rimraf ./dist/* && rimraf ./example/js/*",
+    "provision": "typings install",
     "prebuild": "npm run clean",
     "build": "tsc",
     "postbuild": "webpack"
@@ -27,10 +28,12 @@
   "author": "wakecoder",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wakecoder/preview-tile/issues"
+    "url": "https://github.com/wakecoder/wet-template/issues"
   },
-  "homepage": "https://github.com/wakecoder/preview-tile#readme",
-  "dependencies": {},
+  "homepage": "https://github.com/wakecoder/wet-template#readme",
+  "dependencies": {
+
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "html-loader": "^0.4.3",
