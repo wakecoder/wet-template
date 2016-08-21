@@ -1,0 +1,7 @@
+build
+example
+node_modules
+test
+src
+.vscode
+typings
